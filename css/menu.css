@@ -1,0 +1,163 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto)";
+
+/* mini reset */
+.nav,
+.nav a,
+.nav ul,
+.nav li,
+.nav div,
+.nav form,
+.nav input {
+	border: none;
+	margin: 0;
+	outline: none;
+	padding: 0;
+}
+.nav a {
+  text-decoration: none;
+}
+.nav li {
+  list-style: none;
+}
+
+/* menu container */
+.nav,
+input {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+.nav {
+	cursor: default;
+	display: inline-block;
+	position: relative;
+	z-index: 500;
+}
+
+/* menu list */
+.nav > li {
+	display: block;
+	float: left;
+}
+
+/* menu links */
+.nav > li > a {
+  background: #372f2b;
+  border-left: 1px solid #4b4441;
+  border-right: 1px solid #312a27;
+  display: block;
+  color: #fcfcfc;
+  font-weight: bold;
+  height: 54px;
+  line-height: 54px;
+  padding: 0 20px;
+  position: relative;
+  text-shadow: 0 0 1px rgba(0,0,0,.35);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  z-index: 510;
+}
+.nav > li:hover > a {
+  background: #4b4441;
+}
+.nav > li:first-child > a {
+  border-left: none;
+  border-radius: 3px 0 0 3px;
+}
+
+/* search form */
+.nav > li.nav-search > form {
+  border-left: 1px solid #4b4441;
+  height: 54px;
+  position: relative;
+  width: inherit;
+  z-index: 510;
+}
+.nav > li.nav-search input[type="text"] {
+  background: #372f2b;
+  color: #999;
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  float: left;
+  height: 24px;
+  line-height: 24px;
+  padding: 15px 0;
+  text-shadow: 0 0 1px rgba(0,0,0,.35);
+  -webkit-transition: all .3s ease 1s;
+  transition: all .3s ease 1s;
+  width: 1px;
+}
+.nav > li.nav-search input[type="text"]:focus {
+  color: #fcfcfc;
+}
+.nav > li.nav-search input[type="text"]:focus,
+.nav > li.nav-search:hover input[type="text"] {
+  padding: 15px 20px;
+  -webkit-transition: all .3s ease .1s;
+  transition: all .3s ease .1s;
+  width: 110px;
+}
+.nav > li.nav-search input[type="submit"] {
+	background: #372f2b url(../img/search-icon.png) no-repeat center center;
+	border-radius: 0 3px 3px 0;
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 54px;
+	padding: 0 25px;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+	width: 20px;
+}
+.nav > li.nav-search input[type="submit"]:hover {
+  background-color: #4b4441;
+}
+
+/* menu dropdown */
+.nav > li > div {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0 0 3px 3px;
+  position: absolute;
+  display: block;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  top: 50px;
+  -webkit-transition: all .3s ease .15s;
+	transition: all .3s ease .15s;
+	visibility: hidden;
+	width: 100%;
+}
+.nav > li:hover > div {
+	opacity: 1;
+	overflow: visible;
+	visibility: visible;
+}
+
+/* menu content styles */
+.nav .nav-column {
+	float: left;
+	padding: 2.5%;
+	width: 20%;
+}
+.nav .nav-column h3 {
+	color: #372f2b;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	margin: 20px 0 10px 0;
+	text-transform: uppercase;
+}
+.nav .nav-column h3.orange {
+  color: #ff722b;
+}
+.nav .nav-column li a {
+	color: #888;
+	display: block;
+	font-weight: bold;
+	line-height: 26px;
+}
+.nav .nav-column li a:hover {
+  color: #666;
+}
