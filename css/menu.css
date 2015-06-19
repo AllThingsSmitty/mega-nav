@@ -8,10 +8,10 @@
 .nav div,
 .nav form,
 .nav input {
-	border: none;
-	margin: 0;
-	outline: none;
-	padding: 0;
+  border: none;
+  margin: 0;
+  outline: none;
+  padding: 0;
 }
 .nav a {
   text-decoration: none;
@@ -27,16 +27,16 @@ input {
   font-size: 14px;
 }
 .nav {
-	cursor: default;
-	display: inline-block;
-	position: relative;
-	z-index: 500;
+  cursor: default;
+  display: inline-block;
+  position: relative;
+  z-index: 500;
 }
 
 /* menu list */
 .nav > li {
-	display: block;
-	float: left;
+  display: block;
+  float: left;
 }
 
 /* menu links */
@@ -98,16 +98,16 @@ input {
   width: 110px;
 }
 .nav > li.nav-search input[type="submit"] {
-	background: #372f2b url(../img/search-icon.png) no-repeat center center;
-	border-radius: 0 3px 3px 0;
-	cursor: pointer;
-	display: block;
-	float: left;
-	height: 54px;
-	padding: 0 25px;
-	-webkit-transition: all .3s ease;
-	transition: all .3s ease;
-	width: 20px;
+  background: #372f2b url(../img/search-icon.png) no-repeat center center;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  display: block;
+  float: left;
+  height: 54px;
+  padding: 0 25px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  width: 20px;
 }
 .nav > li.nav-search input[type="submit"]:hover {
   background-color: #4b4441;
@@ -125,38 +125,38 @@ input {
   overflow: hidden;
   top: 50px;
   -webkit-transition: all .3s ease .15s;
-	transition: all .3s ease .15s;
-	visibility: hidden;
-	width: 100%;
+  transition: all .3s ease .15s;
+  visibility: hidden;
+  width: 100%;
 }
 .nav > li:hover > div {
-	opacity: 1;
-	overflow: visible;
-	visibility: visible;
+  opacity: 1;
+  overflow: visible;
+  visibility: visible;
 }
 
 /* menu content styles */
 .nav .nav-column {
-	float: left;
-	padding: 2.5%;
-	width: 20%;
+  float: left;
+  padding: 2.5%;
+  width: 20%;
 }
 .nav .nav-column h3 {
-	color: #372f2b;
-	font-size: 14px;
-	font-weight: bold;
-	line-height: 18px;
-	margin: 20px 0 10px 0;
-	text-transform: uppercase;
+  color: #372f2b;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  margin: 20px 0 10px 0;
+  text-transform: uppercase;
 }
 .nav .nav-column h3.orange {
   color: #ff722b;
 }
 .nav .nav-column li a {
-	color: #888;
-	display: block;
-	font-weight: bold;
-	line-height: 26px;
+  color: #888;
+  display: block;
+  font-weight: bold;
+  line-height: 26px;
 }
 .nav .nav-column li a:hover {
   color: #666;
