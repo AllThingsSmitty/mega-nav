@@ -52,7 +52,6 @@ input {
   padding: 0 20px;
   position: relative;
   text-shadow: 0 0 1px rgba(0,0,0,.35);
-  -webkit-transition: all .3s ease;
   transition: all .3s ease;
   z-index: 510;
 }
@@ -83,7 +82,6 @@ input {
   line-height: 24px;
   padding: 15px 0;
   text-shadow: 0 0 1px rgba(0,0,0,.35);
-  -webkit-transition: all .3s ease 1s;
   transition: all .3s ease 1s;
   width: 1px;
 }
@@ -93,7 +91,6 @@ input {
 .nav > li.nav-search input[type="text"]:focus,
 .nav > li.nav-search:hover input[type="text"] {
   padding: 15px 20px;
-  -webkit-transition: all .3s ease .1s;
   transition: all .3s ease .1s;
   width: 110px;
 }
@@ -105,7 +102,6 @@ input {
   float: left;
   height: 54px;
   padding: 0 25px;
-  -webkit-transition: all .3s ease;
   transition: all .3s ease;
   width: 20px;
 }
@@ -124,7 +120,6 @@ input {
   opacity: 0;
   overflow: hidden;
   top: 50px;
-  -webkit-transition: all .3s ease .15s;
   transition: all .3s ease .15s;
   visibility: hidden;
   width: 100%;
