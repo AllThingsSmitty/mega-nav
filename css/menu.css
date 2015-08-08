@@ -42,8 +42,8 @@ input {
   background: #372f2b;
   border-left: 1px solid #4b4441;
   border-right: 1px solid #312a27;
-  display: block;
   color: #fcfcfc;
+  display: block;
   font-weight: bold;
   height: 54px;
   line-height: 54px;
@@ -62,20 +62,20 @@ input {
 }
 
 /* search form */
-.nav > li.nav-search > form {
+.nav-search > form {
   border-left: 1px solid #4b4441;
   height: 54px;
   position: relative;
   width: inherit;
   z-index: 510;
 }
-.nav > li.nav-search input[type="text"] {
+.nav-search input[type="text"] {
   background: #372f2b;
   color: #999;
   display: block;
-  font-weight: bold;
-  font-size: 14px;
   float: left;
+  font-size: 14px;
+  font-weight: bold;
   height: 24px;
   line-height: 24px;
   padding: 15px 0;
@@ -83,16 +83,16 @@ input {
   transition: all .3s ease 1s;
   width: 1px;
 }
-.nav > li.nav-search input[type="text"]:focus {
+.nav-search input[type="text"]:focus {
   color: #fcfcfc;
 }
-.nav > li.nav-search input[type="text"]:focus,
-.nav > li.nav-search:hover input[type="text"] {
+.nav-search input[type="text"]:focus,
+.nav-search:hover input[type="text"] {
   padding: 15px 20px;
   transition: all .3s ease .1s;
   width: 110px;
 }
-.nav > li.nav-search input[type="submit"] {
+.nav-search input[type="submit"] {
   background: #372f2b url(../img/search-icon.png) no-repeat center center;
   border-radius: 0 3px 3px 0;
   cursor: pointer;
@@ -112,11 +112,11 @@ input {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 0 0 3px 3px;
-  position: absolute;
   display: block;
   left: 0;
   opacity: 0;
   overflow: hidden;
+  position: absolute;
   top: 50px;
   transition: all .3s ease .15s;
   visibility: hidden;
@@ -134,7 +134,7 @@ input {
   padding: 2.5%;
   width: 20%;
 }
-.nav .nav-column h3 {
+h3 {
   color: #372f2b;
   font-size: 14px;
   font-weight: bold;
@@ -142,15 +142,15 @@ input {
   margin: 20px 0 10px 0;
   text-transform: uppercase;
 }
-.nav .nav-column h3.orange {
+.orange {
   color: #ff722b;
 }
-.nav .nav-column li a {
+.nav-column li a {
   color: #888;
   display: block;
   font-weight: bold;
   line-height: 26px;
 }
-.nav .nav-column li a:hover {
-  color: #666;
+.nav-column li a:hover {
+  color: #ff722b;
 }
