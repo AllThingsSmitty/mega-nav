@@ -18,13 +18,12 @@ I used the coolest web technologies to make this happen. Ever heard of [CSS](htt
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 0 0 3px 3px;
-  position: absolute;
   display: block;
   left: 0;
   opacity: 0;
   overflow: hidden;
+  position: absolute;
   top: 50px;
-  -webkit-transition: all .3s ease .15s;
   transition: all .3s ease .15s;
   visibility: hidden;
   width: 100%;
