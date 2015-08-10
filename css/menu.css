@@ -81,7 +81,7 @@ input {
   padding: 15px 0;
   text-shadow: 0 0 1px rgba(0,0,0,.35);
   transition: all .3s ease 1s;
-  width: 1px;
+  width: 0;
 }
 .nav-search input[type="text"]:focus {
   color: #fcfcfc;
