@@ -93,7 +93,8 @@ input {
   width: 110px;
 }
 .nav-search input[type="submit"] {
-  background: #372f2b url(../img/search-icon.png) no-repeat center center;
+  background: #372f2b url(../img/search-icon.png) no-repeat center center; /* IE8 fallback */
+  background: #372f2b url(../img/search-icon.svg) no-repeat center center;
   border-radius: 0 3px 3px 0;
   cursor: pointer;
   display: block;
