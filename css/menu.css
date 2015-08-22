@@ -1,11 +1,11 @@
 /* mini reset */
 .nav,
 .nav a,
-.nav ul,
-.nav li,
 .nav div,
 .nav form,
-.nav input {
+.nav input,
+.nav li,
+.nav ul {
   border: none;
   margin: 0;
   outline: none;
@@ -104,7 +104,7 @@ input {
   transition: all .3s ease;
   width: 20px;
 }
-.nav > li.nav-search input[type="submit"]:hover {
+.nav-search input[type="submit"]:hover {
   background-color: #4b4441;
 }
 
@@ -135,6 +135,15 @@ input {
   padding: 2.5%;
   width: 20%;
 }
+.nav-column li a {
+  color: #888;
+  display: block;
+  font-weight: bold;
+  line-height: 26px;
+}
+.nav-column li a:hover {
+  color: #ff722b;
+}
 h3 {
   color: #372f2b;
   font-size: 14px;
@@ -144,14 +153,5 @@ h3 {
   text-transform: uppercase;
 }
 .orange {
-  color: #ff722b;
-}
-.nav-column li a {
-  color: #888;
-  display: block;
-  font-weight: bold;
-  line-height: 26px;
-}
-.nav-column li a:hover {
   color: #ff722b;
 }
