@@ -33,7 +33,6 @@ input {
 
 /* menu list */
 .nav > li {
-  display: block;
   float: left;
 }
 
@@ -45,7 +44,6 @@ input {
   color: #fcfcfc;
   display: block;
   font-weight: bold;
-  height: 54px;
   line-height: 54px;
   padding: 0 20px;
   position: relative;
@@ -76,7 +74,6 @@ input {
   float: left;
   font-size: 14px;
   font-weight: bold;
-  height: 24px;
   line-height: 24px;
   padding: 15px 0;
   text-shadow: 0 0 1px rgba(0,0,0,.35);
@@ -102,7 +99,6 @@ input {
   height: 54px;
   padding: 0 25px;
   transition: all .3s ease;
-  width: 20px;
 }
 .nav-search input[type="submit"]:hover {
   background-color: #4b4441;
@@ -113,12 +109,8 @@ input {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 0 0 3px 3px;
-  display: block;
-  left: 0;
   opacity: 0;
-  overflow: hidden;
   position: absolute;
-  top: 50px;
   transition: all .3s ease .15s;
   visibility: hidden;
   width: 100%;
