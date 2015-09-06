@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="menu-wrapper" role="navigation">
-      <ul class="nav" role="menubar" aria-hidden="false">
+      <ul class="nav" role="menubar">
         <li role="menuitem">
           <a href="#">Menu Item 1</a>
           <div aria-hidden="true" role="menu">
@@ -67,8 +67,9 @@
         <li role="menuitem"><a href="#">Menu Item 5</a></li>
         <li role="menuitem" class="nav-search">
           <form action="#">
-            <input type="text" placeholder="Search...">
-            <input type="submit" alt="search" value="">
+            <label for="search"></label>
+            <input type="text" id="search" title="Search..." placeholder="Search...">
+            <input type="submit" value="">
           </form>
         </li>
       </ul>
