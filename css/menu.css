@@ -50,6 +50,7 @@ input {
   transition: all .3s ease;
   z-index: 510;
 }
+.nav > li > a:focus,
 .nav > li:hover > a {
   background: #4b4441;
 }
