@@ -99,6 +99,7 @@ input {
   padding: 0 25px;
   transition: all .3s ease;
 }
+.nav-search input:focus,
 .nav-search input[type="submit"]:hover {
   background-color: #4b4441;
 }
