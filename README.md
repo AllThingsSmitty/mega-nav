@@ -5,15 +5,14 @@ A simple mega nav menu in pure CSS.
 
 ### Say Wut?
 
-Mega navs are way cool. In fact, statistics show that mega navs are often times perceived a being a "smarter" navigation solution by those who rarely use the web. Also, W3Schools said once that mega navs were the future, so there's that.
+Mega navs are way cool. Everyone wants one. And now you can have your very own. Also, W3Schools said something about them once, so there's that.
 
 
 ### How'd You Do It?
 
-I used the coolest web technologies to make this happen. Ever heard of [CSS](https://medium.com/cool-code-pal/a-call-for-web-developers-to-deprecate-their-css-1f6430781393)? The mega nav uses top-rated CSS classes for modern features, like colors for background and to change text on hover and stuff.
+I used the coolest web technologies to make this happen. Ever heard of [CSS](https://medium.com/cool-code-pal/a-call-for-web-developers-to-deprecate-their-css-1f6430781393)? This mega nav uses top-rated CSS classes for modern features, like colors for background and to change text on hover and stuff.
 
 ```css
-/* menu dropdown */
 .mega-menu {
   background: #fff;
   border: 1px solid #ddd;
