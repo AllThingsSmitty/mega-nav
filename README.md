@@ -14,7 +14,7 @@ I used the coolest web technologies to make this happen. Ever heard of [CSS](htt
 
 ```css
 /* menu dropdown */
-.nav > li > div {
+.mega-menu {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 0 0 3px 3px;
