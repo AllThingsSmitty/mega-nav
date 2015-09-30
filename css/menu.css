@@ -1,7 +1,6 @@
 /* mini reset */
 .nav,
 .nav a,
-.nav div,
 .nav form,
 .nav input,
 .nav li,
@@ -105,7 +104,7 @@ input {
 }
 
 /* menu dropdown */
-.nav > li > div {
+.mega-menu {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 0 0 3px 3px;
@@ -115,25 +114,25 @@ input {
   visibility: hidden;
   width: 100%;
 }
-.nav > li:hover > div {
+li:hover > .mega-menu {
   opacity: 1;
   overflow: visible;
   visibility: visible;
 }
 
-/* menu content styles */
-.nav .nav-column {
+/* menu content */
+.nav-column {
   float: left;
   padding: 2.5%;
   width: 20%;
 }
-.nav-column li a {
+.nav-column a {
   color: #888;
   display: block;
   font-weight: bold;
   line-height: 26px;
 }
-.nav-column li a:hover {
+.nav-column a:hover {
   color: #ff722b;
 }
 h3 {
