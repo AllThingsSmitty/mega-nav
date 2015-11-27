@@ -21,6 +21,7 @@
 input {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
+  -webkit-font-smoothing: antialiased;
 }
 .nav {
   cursor: default;
