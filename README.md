@@ -3,14 +3,14 @@
 A simple mega nav menu in pure CSS.
 
 
-### Say Wut?
+### Mega Wut?
 
-Mega navs are way cool. Everyone wants one. And now you can have your very own. Also, W3Schools said something about them once, so there's that.
+Mega navs are an effective feature for large menu content and surprisingly easy to implement. If you've wanted to put one together but didn't know where to start, this quick walkthrough is for you.
 
 
 ### How'd You Do It?
 
-I used the coolest web technologies to make this happen. Ever heard of [CSS](https://medium.com/cool-code-pal/a-call-for-web-developers-to-deprecate-their-css-1f6430781393)? This mega nav uses top-rated CSS classes for modern features, like colors for background and to change text on hover and stuff.
+This implementation uses just CSS and nothing else. The mega nav is hidden until you hover over the menu item:
 
 ```css
 .mega-menu {
@@ -23,18 +23,26 @@ I used the coolest web technologies to make this happen. Ever heard of [CSS](htt
   visibility: hidden;
   width: 100%;
 }
+
+li:hover > .mega-menu {
+  opacity: 1;
+  overflow: visible;
+  visibility: visible;
+}
 ```
 
 And voila...
 
 ![Mega nav image 1](img/menu.png)
 
+This implementation also uses ARIA [landmark roles](http://www.w3.org/TR/wai-aria/roles#landmark_roles) following [WCAG 2.0](http://www.w3.org/TR/WCAG/) compliance for accessibility.
+
 
 ### Support
 
-Got a current browser? It works. Got IE8? It still works, but your browser is shit.
+Current versions of Chrome, Firefox, Safari, Edge, and IE8+.
 
 
 ### License
 
-[The MIT License (MIT)](http://allthingssmitty.mit-license.org/)
+[The MIT License (MIT)](https://github.com/AllThingsSmitty/mega-nav/blob/master/LICENSE)
