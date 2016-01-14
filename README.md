@@ -10,7 +10,7 @@ Mega navs are an effective feature for large menu content and surprisingly easy 
 
 ### How'd You Do It?
 
-This implementation uses just CSS and nothing else. After creating a menu list, add `<div class="mega-menu">` to the menu item where the mega nav should display. The following `mega-menu` class will hide teh menu:
+This implementation uses just CSS and nothing else. After creating a menu list, add `<div class="mega-menu">` to the menu item where the mega nav should display. The following `mega-menu` class will hide the menu:
 
 ```css
 .mega-menu {
