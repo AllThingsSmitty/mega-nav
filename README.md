@@ -44,7 +44,7 @@ This implementation uses ARIA [landmark roles](http://www.w3.org/TR/wai-aria/rol
 
 ### Support
 
-Current versions of Chrome, Firefox, Safari, Edge, and IE8+.
+Current versions of Chrome, Firefox, Safari, Opera, Edge, and IE8+.
 
 
 ### License
