@@ -20,7 +20,7 @@
 .nav,
 input {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
 }
 .nav {
@@ -43,10 +43,10 @@ input {
   color: #fcfcfc;
   display: block;
   font-weight: bold;
-  line-height: 54px;
-  padding: 0 20px;
+  line-height: 3.5;
+  padding: 0 1.25em;
   position: relative;
-  text-shadow: 0 0 1px rgba(0,0,0,.35);
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
   transition: all .3s ease;
   z-index: 510;
 }
@@ -62,7 +62,7 @@ input {
 /* search form */
 .nav-search > form {
   border-left: 1px solid #4b4441;
-  height: 54px;
+  height: 3.5em;
   position: relative;
   width: inherit;
   z-index: 510;
@@ -73,9 +73,9 @@ input {
   display: block;
   float: left;
   font-weight: bold;
-  line-height: 24px;
-  padding: 15px 0;
-  text-shadow: 0 0 1px rgba(0,0,0,.35);
+  line-height: 1.5;
+  padding: 1em 0;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
   transition: all .3s ease 1s;
   width: 0;
 }
@@ -84,9 +84,9 @@ input {
 }
 .nav-search input[type="text"]:focus,
 .nav-search:hover input[type="text"] {
-  padding: 15px 20px;
+  padding: 1em 1.25em;
   transition: all .3s ease .1s;
-  width: 110px;
+  width: 6.875em;
 }
 .nav-search input[type="submit"] {
   background: #372f2b url(../img/search-icon.png) no-repeat center center; /* IE8 fallback */
@@ -95,8 +95,8 @@ input {
   cursor: pointer;
   display: block;
   float: left;
-  height: 54px;
-  padding: 0 25px;
+  height: 3.5em;
+  padding: 0 1.25em;
   transition: all .3s ease;
 }
 .nav-search input:focus,
@@ -131,19 +131,19 @@ li:hover > .mega-menu {
   color: #888;
   display: block;
   font-weight: bold;
-  line-height: 26px;
+  line-height: 1.75;
 }
 .nav-column a:hover {
-  color: #ff722b;
+  color: #2196f3;
 }
 h3 {
   color: #372f2b;
-  font-size: 14px;
+  font-size: .95em;
   font-weight: bold;
-  line-height: 18px;
-  margin: 20px 0 10px;
+  line-height: 1.15;
+  margin: 1.25em 0 .75em;
   text-transform: uppercase;
 }
-.orange {
-  color: #ff722b;
+.highlight {
+  color: #2196f3;
 }
